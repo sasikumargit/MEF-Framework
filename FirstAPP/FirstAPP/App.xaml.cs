@@ -86,6 +86,7 @@ namespace FirstAPP
         /// <param name="e">Details about the navigation failure</param>
         void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
         {
+            string i;
             throw new Exception("Failed to load Page " + e.SourcePageType.FullName);
         }
 
